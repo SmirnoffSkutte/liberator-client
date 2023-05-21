@@ -1,0 +1,72 @@
+.appWrapper{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+}
+
+.navBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+    position: sticky;
+    top: 0;
+    background-color: black;
+}
+
+.navButtons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navButtonLigth {
+    margin-right: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: var(--purple-light-max);
+}
+
+.navButtonGray {
+    margin-right: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: var(--main-gray);
+}
+
+.footerBlock {
+    height: 100px;
+    border: 1px solid white;
+}
+
+.navButtonProfile {
+    margin-right: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: var(--purple-light-max);
+    /* position: relative; */
+}
+
+.profileDialog {
+    position: fixed;
+    top:72px;
+    margin-left: auto;
+    border-radius: 8px;
+    background-color: var(--main-gray);
+    color: white;
+    border: none;
+    min-width: 200px;
+    width: 15%;
+}
+
+.profileDialogInsideBlock{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.dialogLink {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}

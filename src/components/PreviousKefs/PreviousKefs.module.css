@@ -1,0 +1,20 @@
+.previousKef{
+    border-radius: 5px;
+    background-color: gray;
+    color: orange;
+    border: 1px solid orange;
+    margin-right:5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.previousKefsLine{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    background-color: gray;
+}

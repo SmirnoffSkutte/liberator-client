@@ -1,0 +1,119 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem;
+    min-height: 100vh;
+}
+
+.gamingBlock{
+    display: flex;
+    flex-direction: column;
+}
+
+.controllersHeader{
+    width: 100%;
+    text-align: center;
+    font-size: large;
+}
+
+.gamingControls{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+}
+
+.betValueSelectorBlock{
+    height:120px;
+    padding:8px;
+    width:32%;
+    background-color: var(--main-gray);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.betButton{
+    height:120px;
+    width:32%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: var(--purple-light-max);
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.autoStopBlock{
+    height:120px;
+    padding:8px;
+    width:32%;
+    background-color: var(--main-gray);
+    border-radius: 8px;
+}
+
+.changeValueSelectorBlock{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.znak{
+    background-color: var(--dark-gray);
+    padding: 8px;
+    border-radius: 8px;
+    width: 20%;
+    text-align: center;
+}
+
+.znak:hover{
+    background-color: var(--purple-light-max);
+}
+
+.betValueInput{
+   background-color: var(--main-gray);
+   outline: 0;
+   text-align: center;
+}
+
+.fastValue{
+    background-color: var(--dark-gray);
+    padding: 8px;
+    border-radius: 8px;
+    width: 32%;
+    text-align: center;
+}
+
+.fastValue:hover{
+    background-color: var(--purple-light-max);
+}
+
+.fastValues{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.autoStopBlock{
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.autoKefCheckBox{
+    margin-top: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+}
+
+.checkboxItself{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
